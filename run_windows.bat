@@ -1,0 +1,6 @@
+@echo off
+echo Menginstall dependensi (jika belum ada)...
+pip install -r requirements.txt
+echo Menjalankan Invisible Peace...
+python main.py
+pause
